@@ -1,6 +1,5 @@
 script_name('money_separator.lua') -- https://www.blast.hk/threads/39380/
 script_author('Royan_Millans, edited dmitriyewich, https://vk.com/dmitriyewichmods')
-script_description("The usual fakeskin on hooks, mimgui. Sets an individual skin by the player's nickname. Any time the server changes the skin, you will have the skin you installed. When unlinking a skin, the skin that was before binding is returned.")
 script_url("https://vk.com/dmitriyewichmods")
 script_dependencies("samp.events", "encoding")
 script_properties('work-in-pause')
