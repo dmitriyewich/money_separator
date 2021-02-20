@@ -130,7 +130,7 @@ function downloadFile(name, path, link)
 	if not doesFileExist(path) then 
 		downloadUrlToFile(link, path, function(id, status, p1, p2)
 			if status == dlstatus.STATUSEX_ENDDOWNLOAD then
-				print('Файл {006AC2}«'..name..'»{FFFFFF} загружен!')
+				print(u8:decode'Файл {006AC2}«'..name..u8:decode'»{FFFFFF} загружен!')
 			end
 		end)
 	end
