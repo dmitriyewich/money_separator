@@ -31,6 +31,7 @@ function separator(text)
     end
 	text = string.gsub(text, "%$%.", "%$")
 	text = string.gsub(text, "%s%.", " ")
+	text = string.gsub(text, "%.%.", "%.")
     return text
 end
 
